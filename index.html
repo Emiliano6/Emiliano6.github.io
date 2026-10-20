@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rohefm.me</title>
+<meta name="description" content="Apps de rohefm.me.">
+<link rel="icon" href="restick/logo.svg" type="image/svg+xml">
+<style>
+:root { --ground: #E3E2D9; --raised: #ECEBE4; --ink: #25231D; --muted: #5C584D; --line: #C7C4B8; }
+@media (prefers-color-scheme: dark) {
+  :root { --ground: #191814; --raised: #24221C; --ink: #ECE7DB; --muted: #A9A292; --line: #3A362D; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; background: var(--ground); color: var(--ink);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { width: 100%; max-width: 34rem; margin: 0 auto; padding: 48px 20px; }
+h1 { font-size: 1rem; font-weight: 600; color: var(--muted); margin: 0 0 20px; letter-spacing: 0.02em; }
+a.app { display: flex; align-items: center; gap: 16px; padding: 16px; border-radius: 22px; background: var(--raised);
+  border: 1px solid var(--line); color: inherit; text-decoration: none; }
+a.app img { width: 64px; height: 64px; flex: none; }
+a.app strong { display: block; font-size: 1.3rem; }
+a.app span { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>rohefm.me</h1>
+<a class="app" href="restick/">
+<img src="restick/logo.svg" alt="">
+<div><strong>Restick</strong><span>Tus stickers favoritos de TikTok, en paquetes para WhatsApp.</span></div>
+</a>
+</main>
+</body>
+</html>
